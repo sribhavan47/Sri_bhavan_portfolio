@@ -1,0 +1,914 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vCard - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Sri Bhavan Prakath B" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Sri Bhavan Prakath B">Sri Bhavan Prakath</h1>
+
+          <p class="title">Data Scientist</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:richard@example.com" class="contact-link">bhavan.prakath@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+12133522795" class="contact-link">+91 99442 06566</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">November 07, 2003</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Coimbatore, Tamil Nadu, India</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <button class="navbar-link active" data-nav-link>About</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Photography</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+        </ul>
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I am a data scientist and AI engineer passionate about building intelligent, data-driven solutions. With expertise in machine learning, NLP, and automation, I transform complex problems into innovative, high-performing applications.
+          </p>
+
+          <p>
+            My work spans AI-powered grading systems, cloudburst forecasting, and medical diagnostics, ensuring precision and efficiency. I specialize in creating intuitive, impactful solutions that enhance user experience and decision-making. 
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">I'm working on</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Data Science</h4>
+
+                <p class="service-item-text">
+                  Cutting-edge and intelligent AI solutions crafted with precision and innovation.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Python Developer</h4>
+
+                <p class="service-item-text">
+                  Efficient and scalable Python development built with clean, high-quality code.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web Design</h4>
+
+                <p class="service-item-text">
+                  Modern and visually stunning web designs crafted for seamless user experience.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Photography</h4>
+
+                <p class="service-item-text">
+                  I pursue photography as a passion, capturing moments that tell stories through light, composition, and emotion.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Internships</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Smartail Pvt Ltd</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Enhanced Auto-Assignment System: Developed an AI-powered system to extract roll numbers based on coordinates and auto-assign them by matching with student details, streamlining the grading process.
+Question Dissection Enhancement: Improved question parsing capabilities by accurately dissecting normal and sub-divided questions to enhance grading precision.
+Advanced Spell Correction: Implemented NLP-based spell correction models to improve the accuracy of student answer evaluations, including syllable splitting and case restoration.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-2.png" alt="Jessica miller" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>360DigiTMG</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Collected and analyzed input data while evaluating business objectives and constraints. Conducted outlier analysis, handled duplicates, and performed Exploratory Data Analysis (EDA) to refine the dataset. Applied feature engineering for data transformation and built a machine learning model based on the processed data. Finally, deployed the trained model for practical use.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-3.png" alt="Emily evans" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>CR Technologies</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Crafted a Fraud Detection system to bolster online transaction security, ensuring airtight protection against potential threats.
+Engineered a cutting-edge Movie Recommendation system for personalized and delightful viewing experiences.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2024">2024</time>
+
+              <div data-modal-text>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Skills</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-1-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-6-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-2-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-3-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-4-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-5-color.png" alt="client logo">
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Coimbatore Institue of Technology, Coimbatore</h4>
+
+              <span>2021 — Present</span>
+
+              <p class="timeline-text">
+                I am currently pursuing an integrated MSc in Data Science with a CGPA of 8.63, gaining expertise in machine learning, data analytics, and AI-driven solutions.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">ARB International School, Pollachi</h4>
+
+              <span>2019 — 2021</span>
+
+              <p class="timeline-text">
+                I completed my SSLC with a 93.4% score, building a strong foundation in mathematics, science, and analytical reasoning.
+              </p>
+
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Product Engineering Intern</h4>
+
+              <span>Jul 2024 - Nov 2024</span>
+
+              <p class="timeline-text">
+                I worked as a Product Engineering Intern at SmartAIL Pvt Ltd, gaining hands-on experience in AI-driven solutions and software development.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Data Analytics Student Intern</h4>
+
+              <span>Nov 2023 - Dec 2024</span>
+
+              <p class="timeline-text">
+                I worked as a Data Analytics Student Intern at 360DigiTMG, acquiring valuable experience in data processing, visualization, and predictive analytics.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Data Science Student Intern</h4>
+
+              <span>Oct 2023 - Nov 2023</span>
+
+              <p class="timeline-text">
+                I worked as a Data Science Student Intern at CR Technologies, acquiring demanding experience in machine learning, data modeling, and analytical problem-solving.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="document-text-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Publications</h3>
+          </div>
+        
+          <ol class="timeline-list">
+        
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                <a href="https://thegrenze.com/index.php?display=page&view=journalabstract&absid=1988&id=8"  style="color:white" target="_blank">A Comparative Study of Sentiment Analysis on Flipkart Dataset using Naïve Bayes Classifier Algorithm</a>
+              </h4>
+              
+              <span>28 July 2023</span>
+              
+              <p class="timeline-text">
+                This study analyzes sentiment in Flipkart reviews using the Naïve Bayes classifier, evaluating its accuracy in distinguishing positive and negative feedback. The research compares performance metrics to assess the model’s effectiveness in sentiment prediction.
+              </p>
+            </li>
+        
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                <a href="https://thegrenze.com/index.php?display=page&view=journalabstract&absid=3196&id=8"  style="color:white" target="_blank">Heart-Mind Harmony: Predicting Stress from Heart Rate</a>
+              </h4>
+              
+              <span>18 July 2024</span>
+              
+              <p class="timeline-text">
+                This study explores the relationship between heart rate patterns and stress levels, using predictive modeling to assess emotional well-being. It aims to develop an efficient stress prediction system for better mental health monitoring.
+              </p>
+            </li>
+        
+          </ol>
+        
+        </section>
+        
+      </article>
+
+
+
+
+
+<!--
+  - #PORTFOLIO
+-->
+
+<article class="portfolio" data-page="portfolio">
+
+  <header>
+    <h2 class="h2 article-title">Portfolio</h2>
+  </header>
+
+  <section class="projects">
+
+    <ul class="filter-list">
+
+      <li class="filter-item">
+        <button class="active" data-filter-btn>All</button>
+      </li>
+
+      <li class="filter-item">
+        <button data-filter-btn>Data science</button>
+      </li>
+
+      <li class="filter-item">
+        <button data-filter-btn>Software development</button>
+      </li>
+
+    </ul>
+
+    <div class="filter-select-box">
+
+      <button class="filter-select" data-select>
+
+        <div class="select-value" data-selecct-value>Select category</div>
+
+        <div class="select-icon">
+          <ion-icon name="chevron-down"></ion-icon>
+        </div>
+
+      </button>
+
+      <ul class="select-list">
+
+        <li class="select-item">
+          <button data-select-item>All</button>
+        </li>
+
+        <li class="select-item">
+          <button data-select-item>Data science</button>
+        </li>
+
+        <li class="select-item">
+          <button data-select-item>Software development</button>
+        </li>
+
+      </ul>
+
+    </div>
+
+    <ul class="project-list">
+      
+      <li class="project-item active" data-filter-item data-category="data science">
+        <a href="https://github.com/sribhavan47/Starry-AI-Night" target="_blank">
+
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+
+            <img src="./assets/images/project-2.png" alt="dsm." loading="lazy">
+          </figure>
+
+          <h3 class="project-title">Starry AI Night</h3>
+
+          <p class="project-category">Data science</p>
+
+        </a>
+      </li>
+
+      <li class="project-item active" data-filter-item data-category="software development">
+        <a href="https://github.com/sribhavan47/Cloudburst-Prediction-System" target="_blank">
+
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+
+            <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
+          </figure>
+
+          <h3 class="project-title">Baadal Jaagruk</h3>
+
+          <p class="project-category">Software Development</p>
+
+        </a>
+      </li>
+
+      <li class="project-item active" data-filter-item data-category="data science">
+        <a href="https://github.com/sribhavan47/Alzheimer-s-Classification" target="_blank">
+
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+
+            <img src="./assets/images/project-1.jpg" alt="fundo" loading="lazy">
+          </figure>
+
+          <h3 class="project-title">Alzheimer's Classification</h3>
+
+          <p class="project-category">Data science</p>
+
+        </a>
+      </li>
+
+      <li class="project-item active" data-filter-item data-category="software development">
+        <a href="https://github.com/sribhavan47/Airline-Customer-Satisfaction" target="_blank">
+
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+
+            <img src="./assets/images/project-6.png" alt="task manager" loading="lazy">
+          </figure>
+
+          <h3 class="project-title">Airline Customer Satisfaction</h3>
+
+          <p class="project-category">Software development</p>
+
+        </a>
+      </li>
+      
+      <li class="project-item active" data-filter-item data-category="data science">
+        <a href="https://github.com/sribhavan47/Sentiment-Analysis" target="_blank">
+
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+
+            <img src="./assets/images/project-3.png" alt="brawlhalla" loading="lazy">
+          </figure>
+
+          <h3 class="project-title">Sentiment Analysis</h3>
+
+          <p class="project-category">Data Science</p>
+
+        </a>
+      </li>
+
+      <li class="project-item active" data-filter-item data-category="data science">
+        <a href="https://github.com/sribhavan47/Waste-Image-Classification" target="_blank">
+
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+
+            <img src="./assets/images/project-7.jpg" alt="metaspark" loading="lazy">
+          </figure>
+
+          <h3 class="project-title">Waste Imnage Classification</h3>
+
+          <p class="project-category">Data science</p>
+
+        </a>
+      </li>
+
+      <li class="project-item active" data-filter-item data-category="software development">
+        <a href="https://github.com/sribhavan47/Q-Chat-Frontend" target="_blank">
+
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+
+            <img src="./assets/images/project-4.png" alt="task manager" loading="lazy">
+          </figure>
+
+          <h3 class="project-title">Quantum Chat</h3>
+
+          <p class="project-category">Software development</p>
+
+        </a>
+      </li>
+
+    </ul>
+
+  </section>
+
+</article>
+
+
+
+
+<article class="photography" data-page="photography">
+  <header>
+    <h2 class="h2 article-title">photography</h2>
+  </header>
+
+  <section class="projects">
+    <ul class="project-list">
+      <li class="project-item active" data-filter-item data-category="all">
+        <a href="https://www.instagram.com/p/DAoX8mTTl7Q/" target="_blank">
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+            <img src="./assets/images/photography-3.webp" alt="Mountain Sunrise" loading="lazy">
+          </figure>
+          <p class="project-category">Photography</p>
+        </a>
+      </li>
+
+      <li class="project-item active" data-filter-item data-category="all">
+        <a href="https://www.instagram.com/p/C9aJlcXySI0/?img_index=1" target="_blank">
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+            <img src="./assets/images/photography-2.jpg" alt="Urban Geometry" loading="lazy">
+          </figure>
+          <p class="project-category">Photography</p>
+        </a>
+      </li>
+
+      <li class="project-item active" data-filter-item data-category="all">
+        <a href="https://www.instagram.com/p/C81MdDXRp9-/" target="_blank">
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+            <img src="./assets/images/photography-4.jpg" alt="Monsoon Moments" loading="lazy">
+          </figure>
+          <p class="project-category">Photography</p>
+        </a>
+      </li>
+
+      <li class="project-item active" data-filter-item data-category="all">
+        <a href="https://www.instagram.com/p/C9HBPo1SWie/?img_index=2" target="_blank">
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+            <img src="./assets/images/photography-1.png" alt="Street Life" loading="lazy">
+          </figure>
+          <p class="project-category">Photography</p>
+        </a>
+      </li>
+    </ul>
+  </section>
+</article>
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
